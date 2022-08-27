@@ -1,0 +1,13 @@
+[package]
+name = "bevy-lua"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["lib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy_reflect = "0.8.1"
+rlua = "0.19.4"
